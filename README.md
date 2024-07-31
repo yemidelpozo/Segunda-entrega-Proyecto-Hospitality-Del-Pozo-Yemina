@@ -175,9 +175,9 @@ Ejemplo:
 Si se intenta insertar un nuevo cliente con un correo electrónico ya registrado, el trigger genera un error y la inserción no se realiza.
 
 ### Trigger:before_insert_reserva_trigger
-Descripción: Este trigger verifica si un cliente ya tiene una reserva en la misma hora y mesa.
+Descripción: Este trigger verifica si un cliente ya tiene una reserva en la misma hora y actividad.
 Detalles:
-- Tabla afectada: RESERVA
+- Tabla afectada: RESERVAS
 - Acción: INSERT
 - Validación: No se permiten reservas duplicadas en la misma hora y actividad para un mismo cliente.
 
