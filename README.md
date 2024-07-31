@@ -41,6 +41,7 @@ A continuación, se detallan los elementos principales de la base de datos:
 Esta base de datos permite gestionar eficientemente el proceso de reserva de las actividades, desde la información de los clientes y empleados hasta el registro de reservas. 
 
 Algunos de los aspectos que aborda incluyen:
+
 •	Registro de clientes y empleados involucrados en el proceso de reserva.
 
 •	Clasificación de las reservas según su tipo.
