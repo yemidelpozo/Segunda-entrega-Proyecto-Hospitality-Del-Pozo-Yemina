@@ -131,7 +131,6 @@ Descripción: Esta función verifica si una actividad está cancelada para una r
 
 Parámetros:
 - actividad_id: Identificador único de la actividad
-- 
 Retorno: TRUE si la actividad está cancelada para alguna reserva, FALSE en caso contrario
 
 Ejemplo de uso:
