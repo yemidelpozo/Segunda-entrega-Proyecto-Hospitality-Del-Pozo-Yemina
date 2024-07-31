@@ -96,6 +96,7 @@ Columnas:
 
 ### Función: contar_reservas_cliente
 Descripción: Esta función cuenta la cantidad de reservas realizadas por un cliente en un intervalo de tiempo.
+
 Parámetros:
 - cliente_id: Identificador único del cliente
 - fecha_inicio: Fecha de inicio del intervalo (formato YYYY-MM-DD)
@@ -111,6 +112,7 @@ Nota: La función no toma en cuenta las cancelaciones de reservas.
 
 ### Función: reservas_por_empleado
 Descripción: Esta función cuenta la cantidad de reservas en las que está involucrado un empleado, dentro de un período de tiempo
+
 Parámetros:
 - empleado_id: Identificador del empleado
 - fecha_inicio: Fecha de inicio del intervalo (formato YYYY-MM-DD)
