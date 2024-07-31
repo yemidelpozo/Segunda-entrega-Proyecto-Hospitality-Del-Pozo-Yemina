@@ -144,7 +144,7 @@ Nota: La función solo verifica si la actividad está cancelada para alguna rese
 ### Trigger:after_insert_trigger
 Descripción: Este trigger registra la inserción de un nuevo cliente en la tabla LOG_CAMBIOS.
 Detalles:
-- Tabla afectada: CLIENTE
+- Tabla afectada: CLIENTES
 - Acción: INSERT
 - Información registrada: Fecha, ID del cliente, Usuario
 
@@ -155,7 +155,7 @@ Se inserta un nuevo cliente. El trigger registra la acción en la tabla LOG_CAMB
 ### Trigger:after_update_cancelacion_trigger
 Descripción: Este trigger registra la cancelación de una reserva en la tabla LOG_CAMBIOS.
 Detalles:
-- Tabla afectada: RESERVA
+- Tabla afectada: RESERVAS
 - Acción: CANCELACION
 - Información registrada: Fecha, ID del cliente (si se conoce), Usuario
 
@@ -166,7 +166,7 @@ Se actualiza una reserva para indicar su cancelación. Si la cancelación no est
 ### Trigger:before_insert_cliente_trigger
 Descripción: Este trigger verifica si el correo electrónico de un nuevo cliente ya está en uso.
 Detalles:
-- Tabla afectada: CLIENTE
+- Tabla afectada: CLIENTES
 - Acción: INSERT
 - Validación: Correo electrónico único
 
