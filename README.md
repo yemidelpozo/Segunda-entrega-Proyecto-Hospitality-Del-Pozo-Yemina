@@ -2,6 +2,7 @@
 
 ### Problema:
 El equipo de Hospitality de una reconocida bodega de Mendoza necesita un sistema que le permita gestionar las reservas de todas las actividades que ofrecen como experiencia al cliente. Por ello, nuestro equipo tiene el desafío de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con las reservas de manera óptima.
+
 Descripción del problema:
 1.	Gestión de Clientes y Empleados : Necesitamos una base de datos que nos permita registrar la información de los clientes que realizan reservas, así como de los empleados involucrados en cada reserva, como sommeliers, encargados de atención al cliente y, en algunos casos, hasta los enólogos o embajadores de marca.
 2.	Gestión de Tipos de Reserva : Es importante poder clasificar las reservas según su tipo, ya sea estándar, reservas de grupos grandes, reservas para atenciones especiales, como recepción de críticos o proveedores o clientes VIP, reservas para empleados de la bodega, etc. 
