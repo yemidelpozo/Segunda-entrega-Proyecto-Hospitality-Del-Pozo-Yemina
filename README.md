@@ -56,6 +56,13 @@ En resumen, esta base de datos proporciona una estructura para organizar y gesti
 
 <img width="473" alt="image" src="https://github.com/user-attachments/assets/d74a7115-513d-4512-b035-545835723d6c">
 
+## Explicación de uso de archivos SQL
+En este repositorio encontrarán 7 elementos:
+- Estructura DB: Contiene el código de creación de la base de datos, las tablas y relaciones entre ellas
+- Carga de datos en DB: Contiene la inserción de datos en las diferentes tablas de la base de datos
+- Vistas, Funciones, Procedures, Triggers: contienen el código con las vistas, funciones, procedimientos y triggers creadas para esta entrega, cuya documentación se explcia a continuación.
+- Checks de creación DB: contiene checks para verificar la creación de los elementos antes mencionados
+
 ## Documentación de Vistas
 
 ### Vista: ReservasPorFecha
