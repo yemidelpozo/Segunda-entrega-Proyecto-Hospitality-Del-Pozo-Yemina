@@ -229,3 +229,26 @@ Retorno: Mensaje de éxito o error
 
 Ejemplo de uso:
 CALL crear_empleado('Emiliano Martinez', '343456789', 'emiliano.martinez@ejemplo.com', 1);
+
+## Documentación de Usuarios
+### Usuario maestro
+Nombre: delyem
+Contraseña: 1234
+Este usuario tiene todos los permisos habilitados en la base de datos.
+
+### Usuario para consulta de tablas
+Nombre: alogla
+Contraseña: abcd
+A este usuario se le otorgan permisos solo para consultar las tablas de la base de datos
+
+### Usuario para consulta de tabla Reservas
+Nombre: barels
+Contraseña: wxyz
+Este usuario tiene permisos para consultar la tabla RESERVAS.
+
+### Usuario para consultar vistas
+Nombre: sanrom
+Usuario: romi
+Este usuario puede consultar todas las vistas sobre reservas.
+
+
