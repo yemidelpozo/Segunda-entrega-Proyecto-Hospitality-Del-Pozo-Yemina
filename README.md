@@ -108,7 +108,7 @@ Columnas:
 - Email: dirección de correo electrónico del cliente
 - TotalCancelaciones: Número total de cancelaciones que ha realizado el cliente
 
-<img width="386" alt="image" src="https://github.com/user-attachments/assets/f4f0f79e-6be7-4389-a9b8-d16667f45008">
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/786076f2-15bf-4b81-8ab0-0ae3e4c565cf">
 
 ## Documentación de Funciones
 
