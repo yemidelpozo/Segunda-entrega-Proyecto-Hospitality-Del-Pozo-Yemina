@@ -97,6 +97,7 @@ Columnas:
 - Tipo: Tipo de reserva (ej. "Estandar", "Recepción de críticos", etc.)
 - TotalCancelaciones: Número total de cancelaciones para el tipo de reserva
 
+Ejemplo de consulta:
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/1fd06f2a-9f61-435f-84d6-c833031c017a">
 
 ### Vista: CancelacionesPorCliente
@@ -108,7 +109,18 @@ Columnas:
 - Email: dirección de correo electrónico del cliente
 - TotalCancelaciones: Número total de cancelaciones que ha realizado el cliente
 
+Ejemplo de consulta:
 <img width="344" alt="image" src="https://github.com/user-attachments/assets/786076f2-15bf-4b81-8ab0-0ae3e4c565cf">
+
+### Vista: ReservasPorCliente
+Descripción: Esta vista muestra la cantidad de reservas que ha realizado cada cliente, para evaluar su fidelidad.
+Columnas:
+- Id_cliente: Es el código único del cliente
+- Nombre: es el nombre del cliente
+- TotalReservas: Número total de reservas no canceladas que ha realizado el cliente
+
+Ejemplo de consulta:
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/a747f777-bb3f-4dd8-ba1b-94e392e6fe0e">
 
 ## Documentación de Funciones
 
