@@ -93,6 +93,7 @@ Ejemplo de consulta:
 
 ### Vista: CancelacionesPorTipoReserva
 Descripción: Esta vista muestra la cantidad de cancelaciones para cada tipo de reserva.
+
 Columnas:
 - Tipo: Tipo de reserva (ej. "Estandar", "Recepción de críticos", etc.)
 - TotalCancelaciones: Número total de cancelaciones para el tipo de reserva
@@ -103,6 +104,7 @@ Ejemplo de consulta:
 
 ### Vista: CancelacionesPorCliente
 Descripción: Esta vista muestra la cantidad de cancelaciones por cada cliente, con sus datos de contacto para gestionar posibles nuevas reservas.
+
 Columnas:
 - Id_cliente: Es el código único del cliente
 - Nombre: es el nombre del cliente
@@ -116,6 +118,7 @@ Ejemplo de consulta:
 
 ### Vista: ReservasPorCliente
 Descripción: Esta vista muestra la cantidad de reservas que ha realizado cada cliente, para evaluar su fidelidad.
+
 Columnas:
 - Id_cliente: Es el código único del cliente
 - Nombre: es el nombre del cliente
