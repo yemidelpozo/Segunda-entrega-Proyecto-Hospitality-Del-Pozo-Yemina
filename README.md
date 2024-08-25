@@ -99,6 +99,17 @@ Columnas:
 
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/1fd06f2a-9f61-435f-84d6-c833031c017a">
 
+### Vista: CancelacionesPorCliente
+Descripción: Esta vista muestra la cantidad de cancelaciones por cada cliente, con sus datos de contacto para gestionar posibles nuevas reservas.
+Columnas:
+- Id_cliente: Es el código único del cliente
+- Nombre: es el nombre del cliente
+- Teléfono: Número de teléfono de contacto
+- Email: dirección de correo electrónico del cliente
+- TotalCancelaciones: Número total de cancelaciones que ha realizado el cliente
+
+<img width="386" alt="image" src="https://github.com/user-attachments/assets/f4f0f79e-6be7-4389-a9b8-d16667f45008">
+
 ## Documentación de Funciones
 
 ### Función: contar_reservas_cliente
